@@ -1,18 +1,31 @@
-[
+{
+  "apps": [
+    {
+      "name": "app1",
+      "cmdb_whitelists": [
         {
-        "name": "App1",
-        "description": "This is the first app.",
-        "version": "1.0.0",
-        "whitelist":[
-                "server1.*","server2"
-        ]
-        },
+          "tpg": "fruits",
+          "SubnetInfrastructure": "lab1"
+        }
+      ],
+      "cmdb_blacklists": [],
+      "whitelists": ["servers1.*"],
+      "blacklists": []
+    },
+    {
+      "name": "app2",
+      "cmdb_whitelists": [
         {
-                "name": "App2",
-                "description": "This is the first app.",
-                "version": "1.0.0",
-                "whitelist":[
-                        "server1.*","server2"
-                ]
-                }
-]
+          "tpg": "fruits"
+        }
+      ],
+      "cmdb_blacklists": [
+        {
+          "SubnetInfrastructure": "lab1"
+        }
+      ],
+      "whitelists": [],
+      "blacklists": []
+    }
+  ]
+}

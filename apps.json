@@ -9,7 +9,7 @@
         }
       ],
       "cmdb_blacklists": [],
-      "whitelists": [],
+      "whitelists": ["servers1.*"],
       "blacklists": []
     },
     {

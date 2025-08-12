@@ -1,0 +1,18 @@
+pipeline:
+    inputs:
+        - name: tail
+          path: /var/log/example.log
+          parser: json
+
+          processors:
+              logs:
+                  - name: record_modifier
+
+    filters:
+        - name: grep
+          match: '*'
+          regex: key pattern
+
+    outputs:
+        - name: stdout
+          match: '*'

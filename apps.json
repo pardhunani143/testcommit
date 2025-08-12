@@ -21,7 +21,7 @@
       ],
       "cmdb_blacklists": [
         {
-          "SubnetInfrastructure": "lab1"
+          "SubnetInfrastructure": "lab2"
         }
       ],
       "whitelists": [],

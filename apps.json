@@ -12,7 +12,7 @@
                 "description": "This is the first app.",
                 "version": "1.0.0",
                 "whitelist":[
-                        "server1.*","server2"
+                        "server3.*","server4"
                 ]
                 }
 ]

@@ -7,7 +7,6 @@ pipeline:
           processors:
               logs:
                   - name: record_modifier
-
     filters:
         - name: grep
           match: '*'
